@@ -22,7 +22,7 @@ Some notes:
 
 * default ECP section:
 
-'''
+`
 C H N 0
 6-31G(d)
 ****
@@ -32,4 +32,4 @@ SDD
 
 Pd 0
 SDD
-'''
+`
