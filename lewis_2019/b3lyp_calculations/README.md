@@ -3,6 +3,10 @@ In this folder are the original input files for Gaussian16 and the final output 
 Some notes:
 -----------
 
+* Naming convention:
+	* `{ligand}_{isomer}_{solvent}`
+	* see manuscript for ligand and isomer definitions.
+
 * For 4_D_dmso:
     * The convergence with the default solvent mesh was poor, so I used surface=SAS and optimised the structure (this is not shown in the original .gjf). 
     * Once optimised, I then took the output and optimised that using the same setup as all other systems.

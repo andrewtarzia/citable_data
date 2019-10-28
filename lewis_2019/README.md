@@ -3,6 +3,7 @@ In the following subdirectories are the input and output of Gaussian calculation
 INSERT REFERENCE HERE
 
 sub-directories:
-b3lyp_calculations/
+
+* b3lyp_calculations/
 	* Gaussian16 input and output for DFT calculations on the cages in this publication.
 	* See the README in that directory.
