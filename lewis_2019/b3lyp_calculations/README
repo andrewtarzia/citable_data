@@ -1,0 +1,14 @@
+- use SAS - optimise the structure, then reoptimise for 4_D with same input as the rest for consistency
+- long optimisations were restarted using:
+	geom=(checkpoint,step=X) if X < latest step
+	calcfc and rcfc to calc and read force constants, respectively at the start of an optimisation from a checkpoint geometry.
+
+- frequencies were run with 'freq'
+
+
+
+
+- default method line:
+#P B3LYP/GenECP opt=(Tight) SCF=(YQC,MaxCycle=900) int=(Grid=Ultrafine) EmpiricalDispersion=GD3 SCRF=(PCM,Solvent=Acetonitrile)
+
+- default ECP section:
