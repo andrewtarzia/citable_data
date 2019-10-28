@@ -3,6 +3,8 @@ In this folder are the original input files for Gaussian16 and the final output 
 Some notes:
 -----------
 
+* Each file type is split into a separate .tar.gz archive.
+
 * Naming convention:
 	* `{ligand}_{isomer}_{solvent}`
 	* see manuscript for ligand and isomer definitions.
