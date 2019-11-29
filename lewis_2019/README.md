@@ -1,6 +1,6 @@
 In the following subdirectories are the input and output of Gaussian calculations for this publication:
 
-INSERT REFERENCE HERE
+James E. M. Lewis, et.al., Conformational Control of Pd2L4 Assemblies with Unsymmetrical Ligands, Chem. Sci. DOI: 10.1039/C9SC05534G  
 
 sub-directories:
 
