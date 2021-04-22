@@ -1,0 +1,40 @@
+Written and performed by Andrew Tarzia. Please contact me with any issues about this work: atarzia@ic.ac.uk
+
+
+
+scripts:
+latex_table.py - writes a latex table with relative structure energies from a .csv file with structure energies in au.
+
+strain_energy.py - extracts ligands from structures defined in 'cage_dir' (most of the process is hard coded). For each extracted ligand, the script will find its lowest energy conformer in 'low_c_dir' and calculate the strain energy, which is output to a json file for each structure.
+
+strain_energy_dft.py - same as strain_energy.py, however the ligand energies are read in from low_e_dft_spe.csv (pre calculated at DFT level).
+
+
+
+
+directories:
+./ : main directory contains:
+    python scripts
+    initial structures "name".xyz
+    .csv files with extracted structure energies
+        low_e_dft_spe.csv - energies of free and extracted ligands at DFT level, used by strain_energy_dft.py to calculate strain energies.
+        spe1_energies.csv - energies of all structures after xtb optimisation at def2-svp level
+        spe2_energies.csv - energies of all structures after DFT (def2-svp) optimisation at def2-tzvp level
+        xtb_energies.csv - energies of all structures after xtb optimisation at GFN2-xTB level
+    extracted ligand structures (NA is number of atoms in ligand):
+        "name"_xtb_sgNA....mol -> from the xtb optimised structure
+        "name"_xtb_dft_sgNA....mol -> from the xtb optimised structure
+
+./xtb1_opts : contains input and output structures for GFN2-xTB optimisations
+
+./orca_spe1 : contains input and output SPE calculations of xtb optimised structures at Def2-SVP level
+
+./orca_opt : contains input and output structures of DFT optimisation of xtb optimised structures at Def2-SVP level
+
+./orca_spe2 : contains input and output SPE calculations of DFT optimised structures at Def2-TZVP level
+
+./low_e_bb_confs : contains input and output of lowest energy conformer search of free ligands (binolA, binolB, longC, longD; names match those in the paper)
+    cr_*/ directories contain input and output of CREST conformer searches -- produces "name"_opt.mol/.xyz in ./low_e_bb_confs
+    dft_opt/ directory contains input and output of DFT optimisation of lowest energy conformers from CREST -- produces "name"_dopt.mol/.xyz in ./low_e_bb_confs
+    
+./low_dft_spe : contains input and output SPE calculations of DFT optimised lowest energy conformers of ligand structures (binolA, binolB, longC, longD) and extracted ligand structures at Def2-TZVP level
