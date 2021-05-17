@@ -1,6 +1,7 @@
 In the following subdirectories are the input and output of Gaussian calculations + structures from screening for this publication:
 
-XX DOI: XX
+chemrxiv: 10.26434/chemrxiv.14604294
+Published: 
 
 
 screening_structures directory:
