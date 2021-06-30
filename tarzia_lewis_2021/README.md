@@ -12,3 +12,8 @@ single_point_dft directory:
     * contains the structures and output of single point DFT calculations
     * during the revision process, we confirmed (based on reviewer suggestions) our DFT validation results using ORCA 4.2.1 with PBE0 and B97-3c in the gas phase. These results were consistent with our previous ones, so were not added to the manuscript. But are useful for future work!
         * These results are in the s_orca directory.
+        
+free_energy_calculations directory:
+    * during the revision process, it was suggested to calculate the free energies using the xTB method (low-cost) and compare that to the total energies we use.
+    * the script `run_gfn2_free_energy.py` in the unsymm_match code repository does this for top candidate ligands using the stko.XTB class.
+        * for each structure, the free energy is output to a .fey file.
