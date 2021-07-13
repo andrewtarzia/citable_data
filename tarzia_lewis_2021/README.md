@@ -1,7 +1,13 @@
 In the following subdirectories are the input and output of Gaussian calculations + structures from screening for this publication:
 
 chemrxiv: 10.26434/chemrxiv.14604294
-Published: 
+
+Published: 10.1002/anie.202106721
+
+Code DOI:
+
+.. image:: https://zenodo.org/badge/190806715.svg
+   :target: https://zenodo.org/badge/latestdoi/190806715
 
 
 screening_structures directory:
