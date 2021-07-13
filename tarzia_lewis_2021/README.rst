@@ -4,7 +4,12 @@ chemrxiv: 10.26434/chemrxiv.14604294
 
 Published: 10.1002/anie.202106721
 
-Code DOI:
+Data DOI:
+
+.. image:: https://zenodo.org/badge/204879639.svg
+   :target: https://zenodo.org/badge/latestdoi/204879639
+
+Associated code DOI:
 
 .. image:: https://zenodo.org/badge/190806715.svg
    :target: https://zenodo.org/badge/latestdoi/190806715
