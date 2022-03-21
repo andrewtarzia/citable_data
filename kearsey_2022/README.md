@@ -13,7 +13,7 @@ sub-directories:
         * all_formation_energies.csv : Formation energy of all intermediates from all methods.
         * all_formation_energies_per_imine.csv : Formation energy per imine bond formed of all intermediates from all methods.
 
-* intermediate_calculations/gaussian_calculations/
+* intermediate_calculations/gaussian_calculations/ [note that these are not used in the manuscript]
 	* Gaussian16 input and output for DFT calculations on the intermediates.
 	* Structures are the GFN2-xTB optimised structures.
 	* File names match the directory above as such `NAME_opt_SOLV_METHOD.gau/log`
@@ -24,7 +24,7 @@ sub-directories:
 	* Orca input and output for DFT calculations on the intermediates.
 	* Structures for B97-3c optimisation are the GFN2-xTB optimised structures.
 	    * Result for each intermediate are saved as `_o_NAME_opt_B97-3c.xyz`.
-	* Structures for the MP2 single-point are the B97-3c output.
+	* Structures for the MP2 single-point are the B97-3c output. [note that these are not used in the manuscript]
 	* File names match the directory above as such `o_NAME_opt_METHOD.in/out`
 	    * All calculations performed in gas phase.
-	    * METHOD inclde `B97-3c` (composite method) and `MP2` (RI-MP2 cc-pVTZ).
+	    * METHOD inclde `B97-3c` (composite method) and `MP2` (RI-MP2 cc-pVTZ). [note that these are not used in the manuscript]
