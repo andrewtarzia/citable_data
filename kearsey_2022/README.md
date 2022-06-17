@@ -20,7 +20,7 @@ sub-directories:
 	    * SOLV include `gas`, `dcm` (dichloromethane) and `cfm` (chloroform).
 	    * METHOD inclde `pbe` (PBE1PBE/Def2TZVP) and `mp2` (MP2/aug-cc-pVDZ).
 
-* intermediate_calculations/orca_calculations/
+* intermediate_calculations/orca_calculations/ [note that these are not used in the manuscript]
 	* Orca input and output for DFT calculations on the intermediates.
 	* Structures for B97-3c optimisation are the GFN2-xTB optimised structures.
 	    * Result for each intermediate are saved as `_o_NAME_opt_B97-3c.xyz`.
