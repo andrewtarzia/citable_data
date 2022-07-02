@@ -9,9 +9,9 @@ sub-directories:
     * Output structures from GFN2-xTB optimisation as `_opt.mol` and `_opt.xyz` files.
     * GFN2-xTB energies for different solvents as `_SOLV.ey` files.
     * `.csv` files containing:
-        * all_total_energies.csv : Total energy of all intermediates from all methods.
-        * all_formation_energies.csv : Formation energy of all intermediates from all methods.
-        * all_formation_energies_per_imine.csv : Formation energy per imine bond formed of all intermediates from all methods.
+        * all_total_energies.csv : Total energy of all intermediates from all methods. [column `xtbgas` is the one used in the manuscript]
+        * all_formation_energies.csv : Formation energy of all intermediates from all methods. [column `xtbgas` is the one used in the manuscript]
+        * all_formation_energies_per_imine.csv : Formation energy per imine bond formed of all intermediates from all methods. [column `xtbgas` is the one used in the manuscript]
 
 * intermediate_calculations/gaussian_calculations/ [note that these are not used in the manuscript]
 	* Gaussian16 input and output for DFT calculations on the intermediates.
