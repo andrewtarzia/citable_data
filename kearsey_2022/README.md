@@ -28,3 +28,7 @@ sub-directories:
 	* File names match the directory above as such `o_NAME_opt_METHOD.in/out`
 	    * All calculations performed in gas phase.
 	    * METHOD inclde `B97-3c` (composite method) and `MP2` (RI-MP2 cc-pVTZ). [note that these are not used in the manuscript]
+	    
+* conformer_calculations/
+    * Eight zipped directories for four diamines and four imines used in conformer analysis including all optimised conformer structures and their energies.
+    * Four zipped directories (`opls_structures`) containing Macromodel/OPLS3e conformers.
