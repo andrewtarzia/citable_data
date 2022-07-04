@@ -9,9 +9,9 @@ sub-directories:
     * Output structures from GFN2-xTB optimisation as `_opt.mol` and `_opt.xyz` files.
     * GFN2-xTB energies for different solvents as `_SOLV.ey` files.
     * `.csv` files containing:
-        * all_total_energies.csv : Total energy of all intermediates from all methods.
-        * all_formation_energies.csv : Formation energy of all intermediates from all methods.
-        * all_formation_energies_per_imine.csv : Formation energy per imine bond formed of all intermediates from all methods.
+        * all_total_energies.csv : Total energy of all intermediates from all methods. [column `xtbgas` is the one used in the manuscript]
+        * all_formation_energies.csv : Formation energy of all intermediates from all methods. [column `xtbgas` is the one used in the manuscript]
+        * all_formation_energies_per_imine.csv : Formation energy per imine bond formed of all intermediates from all methods. [column `xtbgas` is the one used in the manuscript]
 
 * intermediate_calculations/gaussian_calculations/ [note that these are not used in the manuscript]
 	* Gaussian16 input and output for DFT calculations on the intermediates.
@@ -28,3 +28,7 @@ sub-directories:
 	* File names match the directory above as such `o_NAME_opt_METHOD.in/out`
 	    * All calculations performed in gas phase.
 	    * METHOD inclde `B97-3c` (composite method) and `MP2` (RI-MP2 cc-pVTZ). [note that these are not used in the manuscript]
+	    
+* conformer_calculations/
+    * Eight zipped directories for four diamines and four imines used in conformer analysis including all optimised conformer structures and their energies.
+    * Four zipped directories (`opls_structures`) containing Macromodel/OPLS3e conformers.
