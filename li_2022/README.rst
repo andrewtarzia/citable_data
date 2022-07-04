@@ -6,8 +6,8 @@ Published:
 
 Data DOI:
 
-.. image:: https://zenodo.org/badge/204879639.svg
-   :target: https://zenodo.org/badge/latestdoi/204879639
+.. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.6795512.svg
+   :target: https://doi.org/10.5281/zenodo.6795512
 
 Associated code DOI:
 
