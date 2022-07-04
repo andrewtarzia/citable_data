@@ -1,8 +1,8 @@
 In the following subdirectories are the input and output of GFN2-xTB and Gaussian calculations for this publication:
 
-chemrxiv: 10.26434/chemrxiv.14604294
+chemrxiv: 
 
-Published: 10.1002/anie.202106721
+Published: 
 
 Data DOI:
 
@@ -11,17 +11,15 @@ Data DOI:
 
 Associated code DOI:
 
-.. image:: https://zenodo.org/badge/190806715.svg
-   :target: https://zenodo.org/badge/latestdoi/190806715
-
+.. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.6795472.svg
+   :target: https://doi.org/10.5281/zenodo.6795472
 
 xtb_m12_structures directory:
     * contains the structures from xTB optimisation as "_opt.mol"
     
 dft_m12_IO_structures directory:
-    * contains the structures input and output files of Gaussian calculations and optimisations performed by Victor Posiligua (Link: XX)
+    * contains the structures input and output files of Gaussian calculations and optimisations performed by Victor Posiligua
     * HSE and PBE0 optimised structures are separated into directories.
-    * INFO.mol : INFO
 
 
 xtb_m24_structures directory:
