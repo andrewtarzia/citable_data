@@ -6,8 +6,8 @@ Published:
 
 Data DOI:
 
-.. image:: https://zenodo.org/badge/204879639.svg
-   :target: https://zenodo.org/badge/latestdoi/204879639
+.. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.6795512.svg
+   :target: https://doi.org/10.5281/zenodo.6795512
 
 Associated code DOI:
 
@@ -18,7 +18,7 @@ xtb_m12_structures directory:
     * contains the structures from xTB optimisation as "_opt.mol"
     
 dft_m12_IO_structures directory:
-    * contains the structures input and output files of Gaussian calculations and optimisations performed by Victor Posiligua
+    * contains the structures input and output files of Gaussian calculations and optimisations performed by Victor Posligua
     * HSE and PBE0 optimised structures are separated into directories.
 
 
