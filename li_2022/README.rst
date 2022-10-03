@@ -2,7 +2,7 @@ In the following subdirectories are the input and output of GFN2-xTB and Gaussia
 
 chemrxiv: 
 
-Published: 
+Published: 10.1039/d2sc03856k
 
 Data DOI:
 
