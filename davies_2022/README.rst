@@ -22,9 +22,13 @@ complex_library directory:
 
 
 ligand_library directory:
-    * contains the input and output structures of XTB optimisations of Pd24L48 cages.
-    * cleaned.xyz : initial structures, cleaned from provided .pdb files
-    * opt.xyz : optimised structures
+    * contains `_opt.mol` input ligand structures for cage construction
+    * for cap, the input was provided manually in `manual/` directory
+    * in `face_analysis` directory:
+        * contains manual_complex directory, with necessary input for face construction
+        * _long_properties.json files contains the measurements for the named face (in file name)
+        * _long_lopt.mol files contain the optimised structure of the named face, on which analysis was performed
+        * `long` corresponds to the longer restricted optimization discussed in the SI.
 
 
 xray_structures directory:
