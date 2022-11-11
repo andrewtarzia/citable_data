@@ -18,8 +18,7 @@ cage_library directory:
     * contains the structures from xTB optimisation as "_opt.mol"
     
 complex_library directory:
-    * contains the structures input and output files of Gaussian calculations and optimisations performed by Victor Posligua
-    * HSE and PBE0 optimised structures are separated into directories.
+    * contains the optimised structures of both complexes
 
 
 ligand_library directory:
