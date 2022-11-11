@@ -17,13 +17,32 @@ Associated code DOI:
 NOTES:
     * the naming convention differs from manuscript:
 
-manuscript tetra-aniline : computational label : xtal-label
-A : 5 : 370
-B : 16 : 326
-C : 12 : 235
-D : 3 : 301
-E : 8 : 257
-F : 2 : 354
+
+.. list-table:: naming convention
+   :widths: 25 25 50
+   :header-rows: 1
+
+   * - manuscript tetra-aniline
+     - computational label
+     - xtal-labe;
+   * - A 
+     - 5
+     - 370
+   * - B
+     - 16
+     - 326
+   * - C
+     - 12
+     - 235
+   * - D
+     - 3
+     - 301
+   * - E
+     - 8
+     - 257
+   * - F
+     - 2
+     - 354
 
 * computational labels are often preceded by `quad2_` or `cl1_quad2_`
 * much of the analysis was not used in the manuscript but remains part of the accumulated data
