@@ -15,7 +15,7 @@ Associated code DOI:
    :target: https://doi.org/10.5281/zenodo.6795472
 
 NOTES:
-* the naming convention differs from manuscript:
+    * the naming convention differs from manuscript:
 
 manuscript tetra-aniline : computational label : xtal-label
 A : 5 : 370
