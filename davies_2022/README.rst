@@ -14,8 +14,28 @@ Associated code DOI:
 .. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.6795472.svg
    :target: https://doi.org/10.5281/zenodo.6795472
 
+NOTES:
+* the naming convention differs from manuscript:
+
+manuscript tetra-aniline : computational label : xtal-label
+A : 5 : 370
+B : 16 : 326
+C : 12 : 235
+D : 3 : 301
+E : 8 : 257
+F : 2 : 354
+
+* computational labels are often preceded by `quad2_` or `cl1_quad2_`
+* much of the analysis was not used in the manuscript but remains part of the accumulated data
+
 cage_library directory:
-    * contains the structures from xTB optimisation as "_opt.mol"
+    * _CS.json: information on all cages in the set of diastereomers - properties and whether they optimized successfully.
+    * _ligand_measures.json: information on the ligand associated with a set of cage diastereomers.
+    * _measures.json: represenets a cleaned up collation of all measures the diastereomers made from a given ligand
+    * C_NAME_optc.mol: optimized (at xTB level) structure of each cage.
+    * set_dft_run directory contains the input and output of the CP2K optimisations of one set of diastereomers
+
+        
     
 complex_library directory:
     * contains the optimised structures of both complexes
