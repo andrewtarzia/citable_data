@@ -1,0 +1,111 @@
+opti conv noautobond fix molmec cartesian
+
+cartesian
+Zn1 core -0.2186 0.2186 0.2186
+C1 core 1.2548 4.8404 0.0261
+C1 core 2.119 3.7544 0.0221
+C1 core 1.5921 2.47 0.1446
+H1 core 3.184 3.8965 -0.0758
+N1 core 0.2698 2.2479 0.2655
+C1 core 2.4657 1.3095 0.1501
+C1 core -0.549 3.291 0.2716
+C1 core -0.1049 4.6032 0.1572
+H1 core -1.6036 3.0737 0.3733
+H1 core -0.8129 5.4164 0.1688
+H1 core 1.6356 5.8455 -0.0701
+N1 core 1.9557 0.1458 0.2603
+H1 core 3.5344 1.4912 0.0617
+Br1 core 3.0455 -1.3474 0.2723
+C1 core -0.0261 -1.2549 4.8404
+C1 core -0.0221 -2.1191 3.7544
+C1 core -0.1446 -1.5921 2.47
+H1 core 0.0758 -3.184 3.8965
+N1 core -0.2655 -0.2698 2.2479
+C1 core -0.1501 -2.4657 1.3094
+C1 core -0.2716 0.549 3.291
+C1 core -0.1572 0.1049 4.6032
+H1 core -0.3733 1.6035 3.0737
+H1 core -0.1688 0.8129 5.4164
+H1 core 0.0701 -1.6356 5.8455
+N1 core -0.2603 -1.9557 0.1458
+H1 core -0.0616 -3.5345 1.4912
+H1 core -0.2723 -3.0455 -1.3474
+C1 core -4.8404 0.0262 -1.2548
+C1 core -3.7544 0.0222 -2.1191
+C1 core -2.47 0.1446 -1.5921
+H1 core -3.8965 -0.0758 -3.184
+N1 core -2.2479 0.2655 -0.2698
+C1 core -1.3094 0.1501 -2.4657
+C1 core -3.291 0.2716 0.549
+C1 core -4.6032 0.1573 0.1049
+H1 core -3.0737 0.3733 1.6035
+H1 core -5.4164 0.1689 0.8129
+H1 core -5.8455 -0.07 -1.6356
+N1 core -0.1458 0.2603 -1.9557
+H1 core -1.4912 0.0616 -3.5344
+H1 core 1.3474 0.2722 -3.0454
+
+connect 2 12 
+connect 2 9 resonant
+connect 3 2 resonant
+connect 4 3 resonant
+connect 4 6 resonant
+connect 5 3 
+connect 6 8 resonant
+connect 7 4 resonant
+connect 8 9 resonant
+connect 8 10 
+connect 9 11 
+connect 13 7 resonant
+connect 14 7 
+connect 15 13 
+connect 16 26 
+connect 16 23 resonant
+connect 17 16 resonant
+connect 18 17 resonant
+connect 18 20 resonant
+connect 19 17 
+connect 20 22 resonant
+connect 21 18 resonant
+connect 22 23 resonant
+connect 22 24 
+connect 23 25 
+connect 27 21 resonant
+connect 28 21 
+connect 29 27 
+connect 30 40 
+connect 30 37 resonant
+connect 31 30 resonant
+connect 32 31 resonant
+connect 32 34 resonant
+connect 33 31 
+connect 34 36 resonant
+connect 35 32 resonant
+connect 36 37 resonant
+connect 36 38 
+connect 37 39 
+connect 41 35 resonant
+connect 42 35 
+connect 43 41 
+connect 13 1 half
+connect 6 1 half
+connect 27 1 half
+connect 20 1 half
+connect 41 1 half
+connect 34 1 half
+
+species
+Zn1 Zn4+2
+C1 C_R
+H1 H_
+N1 N_R
+Br1 Br
+
+library uff4mof.lib
+
+maxcyc 1000
+terse inout potentials
+terse in cell
+terse in structure
+terse inout derivatives
+output xyz gulp_opt.xyz
