@@ -6,13 +6,9 @@ Published:
 
 Data DOI:
 
-.. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.6795512.svg
-   :target: https://doi.org/10.5281/zenodo.6795512
 
 Associated code DOI:
 
-.. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.6795472.svg
-   :target: https://doi.org/10.5281/zenodo.6795472
 
 NOTES:
     * the naming convention differs from manuscript:
