@@ -1,8 +1,6 @@
 In the following subdirectories are the input and outputs of cage and face analysis for:
 
-chemrxiv: 
-
-Published:
+Published DOI: 10.1002/anie.202217987 
 
 Data DOI:
 
