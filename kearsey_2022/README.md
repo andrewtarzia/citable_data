@@ -1,6 +1,6 @@
 In the following subdirectories are the input and output of DFT and conformer calculations for this publication:
 
-XX
+DOI: 10.1039/D3CC00072A
 
 sub-directories:
 
