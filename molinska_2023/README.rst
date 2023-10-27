@@ -1,6 +1,6 @@
 In the following subdirectories are the input and outputs of cage and face analysis for:
 
-Published DOI: WAITING.
+Published DOI: 10.1002/anie.202315451
 
 Note that all scripts are self-contained. There is some duplicate code between them.
 
