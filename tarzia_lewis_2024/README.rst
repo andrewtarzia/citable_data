@@ -41,6 +41,9 @@ structures/xtb directory:
 structures/opt_*METHOD*_SP_*METHOD*_06-02-2024 directories:
     * All DFT was run by Victor Posligua
     * contains the input files (.com), output files (.log) and structure files (.xyz/.mol) of DFT optimisations and single point energy calculations with each method
+    * When the opt method and SP method are the same, the final structure is included in .mol and .xyz formats
+    * However, if opt method is different from the SP method, the final structure is not included because only a single-point energy calculation was run. 
+    * For example, there are no .mol or .xyz files for 'opt_PBE0_SP_B3LYP_06-02-2024’ since the structure is already in 'opt_PBE0_SP_PBE0_06-02-2024’.
     * you’ll find 8 different folders:
 
 - opt_PBE0_SP_PBE0_06-02-2024
@@ -52,7 +55,5 @@ structures/opt_*METHOD*_SP_*METHOD*_06-02-2024 directories:
 - opt_HSE_SP_HSE_06-02-2024
 - opt_GFN2-xTB_SP_PBE0_06-02-2024
 
-    * When the opt method and SP method are the same, the final structure is included in .mol and .xyz formats
-    * However, if opt method is different from the SP method, the final structure is not included because only a single-point energy calculation was run. 
-    * For example, there are no .mol or .xyz files for 'opt_PBE0_SP_B3LYP_06-02-2024’ since the structure is already in 'opt_PBE0_SP_PBE0_06-02-2024’.
+
 
