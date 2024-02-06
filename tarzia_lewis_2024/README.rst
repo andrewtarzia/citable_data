@@ -4,10 +4,6 @@ chemrxiv: XXX
 
 Published: XXXX
 
-Data DOI:
-
-ZZZ
-
 Associated code DOI:
 
 ZZZ
